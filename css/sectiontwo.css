@@ -57,25 +57,33 @@ input{
     column-gap: 4.1875rem;
     margin-top: 4.1875rem;
 }
-@media(max-width:551px){
+@media(min-width:314px){
     .sectiontwo{
         display: grid;
         grid-template-columns: 1fr;
+        width: 100%;
+             margin-left: auto;
+        margin-right: auto;
+     
      
      
     }
     .twotxt{
-        text-align: justify;
         line-height: 1.5rem;
-     width: 27rem;
+        width: 19.4375rem;
+   
     }
     .sectiontwo-input{
-        width: 27rem;
+
         margin-top:2rem;
         margin-left: auto;
         margin-right: auto;
     }
     input{
-        width: 26rem;
+        width: 100%;
+    }
+    .sectiontwo-heading{
+        margin-left: auto;
+        margin-right: auto;
     }
 }

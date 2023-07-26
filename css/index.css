@@ -60,7 +60,7 @@ img{
     font-weight:lighter ;
 
 }
-@media(max-width:551px){
+@media(min-width:314px){
     .nav-text{
         display: none;
     }
