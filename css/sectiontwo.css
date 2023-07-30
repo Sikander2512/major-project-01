@@ -108,7 +108,7 @@
     .child{
         display: flex;
         flex-direction: column;
-       margin-right:6rem;
+       margin-right:3rem;
     
     }
     select{
