@@ -1,0 +1,118 @@
+.fotertxt {
+    font-size: .9825rem;
+    color: white;
+    font-weight: 550;
+    line-height: 1.6rem;
+    margin-bottom: 1.6rem;
+    margin-top: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.footericon img {
+    width: 2.475rem;
+    height: auto;
+    margin-right: .2875rem;
+}
+
+.footer-sec-one {
+    margin-top: -.5rem;
+}
+
+.headingfooter {
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-bottom: 2rem;
+
+}
+
+.footersec-two a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+    color: white;
+    font-weight: bold;
+    font-size: .975rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+
+}
+
+.footersec-three {
+    width: max-content;
+    margin-right: 16px;
+}
+
+.footerthree-text {
+    font-size: 1.375rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10.25rem;
+    background: rgb(34, 78, 112);
+    margin-top: 8rem;
+    padding: 1rem 2rem;
+    padding-top: 4rem;
+
+}
+.address{
+    color: white;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.contact{
+    color: white;
+}
+@media(max-width:500px){
+    footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-sec-one{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 18.75rem;
+    }
+    .footersec-two{
+        display: none;
+    }
+   
+    .txt{
+        font-size: 21px;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .ftimg{
+        width: 4.8rem;
+    }
+    .simple{
+        font-size: .7375rem;
+        
+    }
+    .footersec-three{
+        margin-top: 1.85rem;
+    }
+    .footericon img {
+        width: 2.475rem;
+        height: auto;
+        margin-right: .6875rem;
+    }
+}

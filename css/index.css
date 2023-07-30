@@ -4,10 +4,10 @@
         margin: 0;
     }
     .nav{
-        display: flex;
-        justify-content: center;
+        display: grid;
+        grid-template-columns: 18.75rem 1fr 15.6875rem ;
+        column-gap: 6rem;
         align-items: center;
-        column-gap: 11em;
         position: fixed;
         left: 0;
         right: 0;
@@ -67,8 +67,8 @@
         display: none;
     }
     .nav{
-        display: flex;
-        justify-content: flex-start;
+        display: grid;
+        grid-template-columns: 1fr ;
         
     }
     .nav-button{
