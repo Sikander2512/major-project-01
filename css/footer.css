@@ -109,10 +109,14 @@ footer {
     }
     .footersec-three{
         margin-top: 1.85rem;
+        width: 18.75rem;
     }
     .footericon img {
         width: 2.475rem;
         height: auto;
         margin-right: .6875rem;
+    }
+    .address{
+        font-size: .875rem;
     }
 }
