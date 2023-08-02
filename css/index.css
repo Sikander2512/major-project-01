@@ -1,77 +1,155 @@
+* {
+    padding: 0;
+    margin: 0;
+}
 
-    *{
-        padding: 0;
-        margin: 0;
+.nav {
+    display: flex;
+    justify-content: center;
+    column-gap: 6rem;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 1;
+    background: white;
+    padding: 1rem 0rem;
+}
+
+.nav-img {
+    display: flex;
+    column-gap: .625rem;
+}
+
+img {
+    width: 5.75rem;
+    object-fit: contain;
+    object-position: center;
+    border-radius: 1.0015625rem;
+}
+
+.nav-text a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-right: 1.375rem;
+
+}
+
+.nav-text a:hover {
+    color: rgb(194, 82, 102);
+}
+
+.btxtxt {
+    padding: 1.125rem 2.5rem;
+    font-size: 1rem;
+    border: solid .0313rem rgb(194, 82, 102);
+    border-radius: 1.5625rem;
+    color: rgb(194, 82, 102);
+}
+
+.btxtxt:hover {
+    background: rgb(194, 82, 102);
+    color: white;
+    cursor: pointer;
+}
+
+.txt {
+    font-size: 28px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: -.8rem;
+
+
+}
+
+.simple {
+    font-size: .9375rem;
+    font-weight: lighter;
+
+}
+
+
+
+
+.hamburger {
+    display: none;
+}
+
+.overlay {
+    display: none;
+}
+
+.loop {
+    display: none;
+}
+
+@media(max-width:500px) {
+    .nav-text {
+        display: none;
     }
-    .nav{
-        display: grid;
-        grid-template-columns: 18.75rem 1fr 15.6875rem ;
-        column-gap: 6rem;
-        align-items: center;
+
+    .nav {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .nav-button {
+        display: none;
+    }
+
+    
+    .hamburger  {
+        display: flex;
+        background: black;
+        flex-direction: column;
+        width: 25px;
+        height: 2px;
+       row-gap: .5625rem;
+
+
+
+    }
+    
+
+    .open .hamburger :nth-child(2) {
+        visibility: hidden;
+    }
+
+    .open .hamburger :first-child {
+        transform: rotate(45deg);
+        transform-origin: 20%;
+    }
+
+    .open .hamburger :last-child {
+        transform: rotate(-45deg);
+        transform-origin: 15%;
+    }
+    .open .overlay{
+        display: block;
         position: fixed;
-        left: 0;
-        right: 0;
-        top: 0;
-     bottom: 1;
-     background:white;
-     padding: 1rem 0rem;
+        inset: 0;
+        background: black;
+        top: 100px;
     }
-    .nav-img{
-     display: flex; 
-     column-gap: .625rem; 
-    }
-    img{
-        width: 5.75rem;
-        object-fit: contain;
-        object-position: center;
-        border-radius: 1.0015625rem;
-    }
-    .nav-text a{
-        text-decoration: none;
-        font-size: 1.1rem;
-        font-weight: bold;
-        margin-right: 1.375rem;
-    
-    }
-    .nav-text a:hover{
-        color: rgb(194, 82, 102);
-    }
-    .btxtxt{
-        padding: 1.125rem  2.5rem;
-        font-size: 1rem;
-        border: solid .0313rem rgb(194, 82, 102);
-        border-radius: 1.5625rem;
-        color: rgb(194, 82, 102);
-    }
-    .btxtxt:hover{
-        background: rgb(194, 82, 102);
-        color: white;
-        cursor: pointer;
-    }
-    .txt{
-        font-size: 28px;
-        font-weight: bolder;
-        font-family: Arial, Helvetica, sans-serif;
-        margin-bottom: -.8rem;
+   .open  .loop{
+        display: flex;
+        background: white;
+        position: fixed;
+        inset: 0;
+        margin-bottom: 9.375rem;
+        margin-top: 9.375rem;
         
-        
-    }
-    .simple{
-        font-size: .9375rem;
-        font-weight:lighter ;
-    
-    }
-
-@media(max-width:500px){
-    .nav-text{
-        display: none;
-    }
-    .nav{
-        display: grid;
-        grid-template-columns: 1fr ;
-        
-    }
-    .nav-button{
-        display: none;
-    }
+        flex-direction: column;
+        row-gap: 1.5625rem;
+        justify-content: center;
+        align-items: center;
+        }
+       .open  .loop a{
+            text-decoration: none;
+            color: black;
+        }
+  
 }

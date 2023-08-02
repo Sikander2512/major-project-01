@@ -76,6 +76,15 @@
         margin-right: 1.7rem;
         row-gap: .5rem;
     }
+    .btn{
+        width: fit-content;
+        padding: 10px 25px;
+        border-radius: .625rem;
+        border: none;
+        background:rgb(27, 71, 105);
+        color: white;
+
+    }
     
 
 @media(max-width:500px){
@@ -110,10 +119,11 @@
         flex-direction: column;
       margin-left: auto;
       margin-right: auto;
+      margin-right: 4.7rem;
     
     }
     select{
-    width: 18.625rem;
+    width: 21.125rem;
     }
     
     
