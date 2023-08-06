@@ -1,6 +1,6 @@
 
     .hero-section{
-        margin-top: 7.0rem;
+        margin-top: 6rem;
         background-image: linear-gradient(181deg,rgb(17, 41, 157),rgb(181, 77, 184));
         padding: 3.4375rem  1.3125rem;
     }
@@ -52,7 +52,7 @@
        border-radius: 2rem;
        width: max-content;
        margin-top: -1.5rem;
-       margin-bottom: 1.5rem;
+       margin-bottom: 2.5rem;
     }
     
 

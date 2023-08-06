@@ -5,7 +5,7 @@
 
 .nav {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     column-gap: 6rem;
     align-items: center;
     position: fixed;
@@ -23,7 +23,7 @@
 }
 
 img {
-    width: 5.75rem;
+    width: 4.4rem;
     object-fit: contain;
     object-position: center;
     border-radius: 1.0015625rem;
@@ -56,7 +56,7 @@ img {
 }
 
 .txt {
-    font-size: 28px;
+    font-size: 21px;
     font-weight: bolder;
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: -.8rem;
@@ -65,15 +65,14 @@ img {
 }
 
 .simple {
-    font-size: .9375rem;
+    font-size: .7375rem;
     font-weight: lighter;
-
 }
 
 
 
 
-.hamburger {
+.hamburger span{
     display: none;
 }
 
@@ -101,13 +100,13 @@ img {
     }
 
     
-    .hamburger  {
+    .hamburger span{
         display: flex;
         background: black;
         flex-direction: column;
         width: 25px;
         height: 2px;
-       row-gap: .5625rem;
+      margin-bottom: .3125rem;
 
 
 
@@ -120,28 +119,22 @@ img {
 
     .open .hamburger :first-child {
         transform: rotate(45deg);
-        transform-origin: 20%;
+        transform-origin: 8%;
     }
 
     .open .hamburger :last-child {
         transform: rotate(-45deg);
-        transform-origin: 15%;
+        transform-origin: 14%;
     }
-    .open .overlay{
-        display: block;
-        position: fixed;
-        inset: 0;
-        background: black;
-        top: 100px;
-    }
+   
+    
    .open  .loop{
         display: flex;
-        background: white;
+        background: linear-gradient(black,white);
         position: fixed;
         inset: 0;
-        margin-bottom: 9.375rem;
-        margin-top: 9.375rem;
-        
+        margin-bottom: 12.375rem;
+        margin-top: 6.075rem;
         flex-direction: column;
         row-gap: 1.5625rem;
         justify-content: center;
@@ -150,6 +143,12 @@ img {
        .open  .loop a{
             text-decoration: none;
             color: black;
+        }
+      
+        .instituteimg{
+            width: 3.75rem;
+            height: auto;
+            margin-left: 10px;
         }
   
 }
