@@ -64,7 +64,7 @@
         grid-template-columns: 1fr; 
       padding:  .9125rem  3rem;
       margin-top: 1rem;
-   
+        margin-bottom: 1rem;
     }
     .coursetxt{
         font-size: 1.0rem;
