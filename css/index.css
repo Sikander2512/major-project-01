@@ -72,7 +72,7 @@ img {
 
 
 
-.hamburger span{
+.hamburger span {
     display: none;
 }
 
@@ -99,19 +99,19 @@ img {
         display: none;
     }
 
-    
-    .hamburger span{
+
+    .hamburger span {
         display: flex;
         background: black;
         flex-direction: column;
         width: 25px;
         height: 2px;
-      margin-bottom: .3125rem;
+        margin-bottom: .3125rem;
         margin-right: .925rem;
 
 
     }
-    
+
 
     .open .hamburger :nth-child(2) {
         visibility: hidden;
@@ -126,29 +126,36 @@ img {
         transform: rotate(-45deg);
         transform-origin: 14%;
     }
-   
-    
-   .open  .loop{
+
+
+    .open .loop {
         display: flex;
-        background: linear-gradient(black,white);
+        background: white;
         position: fixed;
         inset: 0;
+        margin: 3.75rem;
         margin-bottom: 12.375rem;
-        margin-top: 6.075rem;
+        margin-top: 8.075rem;
         flex-direction: column;
         row-gap: 1.5625rem;
         justify-content: center;
         align-items: center;
-        }
-       .open  .loop a{
-            text-decoration: none;
-            color: black;
-        }
-      
-        .instituteimg{
-            width: 3.75rem;
-            height: auto;
-            margin-left: 10px;
-        }
-  
+    }
+
+    .open .loop a {
+        text-decoration: none;
+        color: black;
+    }
+    .open .overlay{
+        display: block;
+        position: fixed;
+        inset: 0;
+        background: linear-gradient(black,white);
+        top: 100px;}
+    .instituteimg {
+        width: 3.75rem;
+        height: auto;
+        margin-left: 10px;
+    }
+
 }

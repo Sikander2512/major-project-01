@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: black;
+
+}
+#accordian{
+    margin: 100px auto;
+    width: 400px;
+}
+#accordian li{
+    background: white;
+    list-style-type: none;
+}
