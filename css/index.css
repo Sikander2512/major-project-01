@@ -127,7 +127,6 @@ img {
         transform-origin: 14%;
     }
 
-
     .open .loop {
         display: flex;
         background: white;
@@ -151,7 +150,7 @@ img {
         position: fixed;
         inset: 0;
         background: linear-gradient(black,white);
-        top: 100px;}
+        top: 90px;}
     .instituteimg {
         width: 3.75rem;
         height: auto;
